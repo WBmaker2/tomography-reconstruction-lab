@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 150" role="img" aria-label="도입 카드: 측정하기">
+  <rect x="8" y="8" width="224" height="134" rx="12" fill="#ffffff" stroke="#1e3a5f" stroke-width="3"/>
+  <path d="M 60 115 A 62 62 0 0 1 180 115" fill="none" stroke="#a16207" stroke-width="5"/>
+  <g stroke="#1e3a5f" stroke-width="3">
+    <line x1="60" y1="115" x2="72" y2="115"/>
+    <line x1="120" y1="53" x2="120" y2="65"/>
+    <line x1="180" y1="115" x2="168" y2="115"/>
+  </g>
+  <line x1="120" y1="115" x2="165" y2="70" stroke="#b91c1c" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="120" cy="115" r="8" fill="#1e3a5f"/>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 200" role="img" aria-label="밀봉된 정육면체 상자 외관">
+  <polygon points="120,18 208,62 120,106 32,62" fill="#e9eef5" stroke="#1e3a5f" stroke-width="3"/>
+  <polygon points="32,62 120,106 120,188 32,144" fill="#ffffff" stroke="#1e3a5f" stroke-width="3"/>
+  <polygon points="208,62 120,106 120,188 208,144" fill="#cbd5e1" stroke="#1e3a5f" stroke-width="3"/>
+  <polygon points="104,26 136,26 136,180 104,180" fill="none" stroke="#a16207" stroke-width="5" opacity="0.85"/>
+</svg>
