@@ -2,7 +2,7 @@
 
 - 작성: 2026-09-16
 - 대상: tomography-reconstruction-lab
-- 커밋/푸시/배포: 하지 않음
+- 커밋/푸시/배포: 완료 확인 (2026-09-16)
 
 ## 완료
 
@@ -31,6 +31,14 @@
 - lint 스크립트 없음
 - 브라우저 320/375/768/1280 실기기: pending
 - VoiceOver: not run
+
+## 공개 배포 확인
+
+- 코드 커밋: `1864f6ebb59e11b7551f51e913f09212b6185dc5`
+- GitHub Pages Actions: https://github.com/WBmaker2/tomography-reconstruction-lab/actions/runs/35038114294
+- 공개 주소: https://wbmaker2.github.io/tomography-reconstruction-lab/
+- `ego-browser` 확인: 타이틀·25분 키커 표시, 하위 경로 자산 4종 로드, `naturalWidth` 정상, 실패 리소스 0건.
+- 공개 학습 흐름: 후보 갑 선택 → 30° 스캔(예산 12→11) → 반복 재구성(잔차 0.0470, 185회) → 비교 전이 → 정답 공개(RMSE 0.2850).
 
 ## 미실행/pending
 
