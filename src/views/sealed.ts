@@ -135,7 +135,6 @@ export function renderSealed(host: HTMLElement, s: AppState, a: Actions): void {
   intro.textContent =
     '아래 두 8×8 배열은 위에서 본 열 합이 완전히 같습니다. 어느 쪽이 상자 안에 있을지, 그리고 어떻게 구분할지 예측해 보세요.';
   cond.append(h, q, intro);
-  cond.appendChild(introCards());
 
   const pair = introPair8();
   const row = document.createElement('div');
@@ -198,11 +197,12 @@ export function renderSealed(host: HTMLElement, s: AppState, a: Actions): void {
   btnRow.className = 'btn-row';
   const startBtn = document.createElement('button');
   startBtn.type = 'button';
-  startBtn.className = 'btn pulse';
+  startBtn.className = 'btn';
   startBtn.textContent = '상자 열기 — 스캔 시작';
   startBtn.addEventListener('click', () => a.start());
   btnRow.appendChild(startBtn);
   cond.appendChild(btnRow);
+  cond.appendChild(introCards());
 
   host.append(visual, cond);
 }

@@ -82,8 +82,14 @@ export function createApp(root: HTMLElement): void {
   shell.className = 'shell';
   const topbar = document.createElement('header');
   topbar.className = 'topbar';
+  const brand = document.createElement('div');
+  brand.className = 'brand';
+  const kicker = document.createElement('p');
+  kicker.className = 'kicker';
+  kicker.textContent = '25분 탐구 · 제한된 투영으로 내부를 추정한다';
   const title = document.createElement('h1');
   title.textContent = '보이지 않는 내부 복원소';
+  brand.append(kicker, title);
   const badge = document.createElement('span');
   badge.className = 'seed-badge num';
   const spacer = document.createElement('span');
@@ -92,7 +98,7 @@ export function createApp(root: HTMLElement): void {
   histBtn.type = 'button';
   histBtn.className = 'btn btn-ghost';
   histBtn.textContent = '업데이트 내역';
-  topbar.append(title, badge, spacer, histBtn);
+  topbar.append(brand, badge, spacer, histBtn);
   const rail = document.createElement('nav');
   rail.className = 'rail';
   rail.setAttribute('aria-label', '학습 절차');

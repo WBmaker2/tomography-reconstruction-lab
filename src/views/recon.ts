@@ -97,7 +97,7 @@ export function renderRecon(host: HTMLElement, s: AppState, a: Actions): void {
     btnRow.className = 'btn-row';
     const run = document.createElement('button');
     run.type = 'button';
-    run.className = 'btn pulse';
+    run.className = 'btn';
     run.textContent = s.reconMethod === 'simple' ? '역투영 보기' : '반복 재구성 실행';
     run.disabled = s.scans.length === 0;
     run.addEventListener('click', () => a.runRecon());

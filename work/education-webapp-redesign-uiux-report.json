@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-09-15T23:39:11+00:00",
+  "skillName": "ui-ux-pro-max",
+  "skillFile": "/Users/kimhongnyeon/.codex/skills/ui-ux-pro-max/SKILL.md",
+  "searchScript": "/Users/kimhongnyeon/.codex/skills/ui-ux-pro-max/scripts/search.py",
+  "executionMode": "runtime-cli",
+  "runtimeStatus": "available",
+  "projectRoot": "/Volumes/ External Drive 256G/Dev2/codex/tomography-reconstruction-lab",
+  "outputDir": "/Volumes/ External Drive 256G/Dev2/codex/tomography-reconstruction-lab",
+  "query": "educational science lab tomography reconstruction high school bright enamel measurement bench Korean UI",
+  "projectName": "tomography-reconstruction-lab",
+  "command": [
+    "/opt/homebrew/opt/python@3.14/bin/python3.14",
+    "/Users/kimhongnyeon/.codex/skills/ui-ux-pro-max/scripts/search.py",
+    "educational science lab tomography reconstruction high school bright enamel measurement bench Korean UI",
+    "--design-system",
+    "--persist",
+    "--json",
+    "--project-name",
+    "tomography-reconstruction-lab",
+    "--output-dir",
+    "/Volumes/ External Drive 256G/Dev2/codex/tomography-reconstruction-lab"
+  ],
+  "exitCode": 0,
+  "status": "success",
+  "persistence": {
+    "status": "success",
+    "design_system_dir": "/Volumes/ External Drive 256G/Dev2/codex/tomography-reconstruction-lab/design-system/tomography-reconstruction-lab",
+    "master_file": "/Volumes/ External Drive 256G/Dev2/codex/tomography-reconstruction-lab/design-system/tomography-reconstruction-lab/MASTER.md",
+    "created_files": [
+      "/Volumes/ External Drive 256G/Dev2/codex/tomography-reconstruction-lab/design-system/tomography-reconstruction-lab/MASTER.md"
+    ]
+  },
+  "masterFile": "/Volumes/ External Drive 256G/Dev2/codex/tomography-reconstruction-lab/design-system/tomography-reconstruction-lab/MASTER.md",
+  "masterExists": true,
+  "stackSearch": {
+    "command": [
+      "/opt/homebrew/opt/python@3.14/bin/python3.14",
+      "/Users/kimhongnyeon/.codex/skills/ui-ux-pro-max/scripts/search.py",
+      "educational science lab tomography reconstruction high school bright enamel measurement bench Korean UI",
+      "--stack",
+      "react",
+      "--json"
+    ],
+    "exitCode": 0,
+    "result": {
+      "domain": "stack",
+      "stack": "react",
+      "query": "educational science lab tomography reconstruction high school bright enamel measurement bench Korean UI",
+      "file": "stacks/react.csv",
+      "count": 0,
+      "results": [],
+      "suggestions": [
+        "constructor",
+        "functional",
+        "label"
+      ]
+    }
+  }
+}
